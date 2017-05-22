@@ -16,7 +16,7 @@ nav{
   height: 50px;
   background-color: rgba(0,0,0,0.5);
   z-index: 99;
-  text-align: center;
+  text-align: right;
 }
 
 nav a{
@@ -39,13 +39,13 @@ nav a{
 }
 
 .sectOne{
-  background-image: url("https://raw.githubusercontent.com/peterhaddad98/Website/gh-pages/Images/image1.JPG");
+  background-image: url("../Images/image1.JPG");
 }
 
 .sectTwo{
-  background-image: url("https://raw.githubusercontent.com/peterhaddad98/Website/gh-pages/Images/image2.jpg");
+  background-image: url("../Images/image2.jpg");
 }
 
 .sectThree{
-  background-image: url("https://raw.githubusercontent.com/peterhaddad98/Website/gh-pages/Images/image3.jpg");
+  background-image: url("../Images/image3.jpg");
 }
