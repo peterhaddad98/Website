@@ -12,22 +12,44 @@ h1, h2, h3, h4, h5, h6, p{
 
 
 nav{
-  position: fixed;
+  position: cover;
   width: 100%;
-  height: 50px;
-  background-color: rgba(0,0,0,0.5);
+  height: 100px;
+  background-color: rgba(0,0,0,0);
   z-index: 99;
   text-align: right;
 }
 
-nav a{
-  text-decoration: none;
-  color: #fff;
-  margin-left: 10px;
-  line-height: 50px;
-  padding-right: 30px;
+footer nav{
+  position: cover;
+  width: 100%;
+  height: 20px;
+  z-index: 99;
+  text-align: center;
 }
 
+nav a{
+  text-decoration: none;
+  color: #000000;
+  margin-left: -60px;
+  line-height: 100px;
+  padding-right: 100px;
+}
+
+nav b{
+  text-decoration: none;
+  color: #fff;
+  padding-right: 30px;
+  font-weight: lighter;
+  font-size: 14px
+}
+
+
+footer{
+	width: 100%;
+	background-color: #222;
+	padding: 60px 0px;
+}
 
 .sect{
   height: 100%;
