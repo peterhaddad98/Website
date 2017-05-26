@@ -128,3 +128,7 @@ nav b{
   font-size: 14px
 }
 
+.wrapper{
+  text-transform: uppercase;
+  text-decoration: none;
+}
