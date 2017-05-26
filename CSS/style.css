@@ -71,15 +71,22 @@ nav b{
 
 
 
-.sect{
-  height: 70%;
+.largesect{
+  height: 69%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.smallsect{
+  height: 60%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
 }
 
 .subSection{
-  height: 60%;
+  height: 72%;
   background-color: white;
 }
 
