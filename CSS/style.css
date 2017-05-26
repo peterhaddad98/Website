@@ -73,6 +73,42 @@ nav ul li a{
   background-color:#000;
 }
 
+
+.largesect{
+  height: 69%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.smallsect{
+  height: 60%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.subSection{
+  height: 72%;
+  background-position: center;
+  background-color: white;
+}
+
+.sectOne{
+  background-image: url("../img/image1.JPG");
+}
+
+.sectTwo{
+  background-image: url("../img/image2.jpg");
+}
+
+.sectThree{
+  background-image: url("../img/image3.jpg");
+}
+
+
 footer{
   position: cover;
   width: 100%;
@@ -92,35 +128,3 @@ nav b{
   font-size: 14px
 }
 
-
-
-.largesect{
-  height: 69%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-}
-
-.smallsect{
-  height: 60%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-}
-
-.subSection{
-  height: 72%;
-  background-color: white;
-}
-
-.sectOne{
-  background-image: url("../img/image1.JPG");
-}
-
-.sectTwo{
-  background-image: url("../img/image2.jpg");
-}
-
-.sectThree{
-  background-image: url("../img/image3.jpg");
-}
