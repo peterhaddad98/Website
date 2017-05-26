@@ -47,6 +47,7 @@ nav ul li a{
 }
 
 
+
 footer{
   position: cover;
   width: 100%;
@@ -66,13 +67,9 @@ nav b{
   font-size: 14px
 }
 
-/*
-div p{
-  text-decoration: none;
-  color: #fff;
-  font-size: 80px;
-}
-*/
+
+
+
 
 .sect{
   height: 70%;
