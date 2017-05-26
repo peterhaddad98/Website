@@ -33,12 +33,12 @@ nav a{
 
 nav ul{
   text-align: right;
-  padding: 42px 120px;
+  padding: 30px 120px;
 }
 
 nav ul li{
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 nav ul li a{
@@ -47,6 +47,31 @@ nav ul li a{
 }
 
 
+.btn{
+  border-radius: 9px;
+  color: #000;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn:hover{
+  color: #036A81;
+}
+
+.btnAbout{
+  border-radius: 9px;
+  color: #036A81;
+  padding: 10px 20px;
+  border: solid #036A81;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btnAbout:hover{
+  color: #fff;
+  background-color:#036A81;
+}
 
 footer{
   position: cover;
@@ -66,8 +91,6 @@ nav b{
   font-weight: lighter;
   font-size: 14px
 }
-
-
 
 
 
