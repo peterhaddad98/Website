@@ -90,6 +90,14 @@ nav ul li a{
   background-attachment: scroll;
 }
 
+.extralargesect{
+  height: 92%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
 .subSection{
   height: 72%;
   background-position: center;
