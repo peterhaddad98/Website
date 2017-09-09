@@ -164,9 +164,9 @@ var App = function () {
 
     this.currentSong = 1;
     this.volume = 1;
-    this.baseURL = "https://box1182.BlueHost.com/~seanale3/codepen/audio/";
-    this.fileNames = ["dmwaltz.mp3", "nocturne92.mp3", "mozart25.mp3", "trista.mp3", "waltzflowers.mp3"];
-    this.songTitles = ["Dmitri Shostakovich - Waltz No. 2", "Frederic Chopin - Nocturne op. 9 no. 2", "Mozart - Symphony no. 25", "Heitor Villa-Lobos - Tristorosa", "Pyotr Tchaikovsky - Waltz of the Flowers"];
+    this.baseURL = "https://media.fbcbaptistchurch.org/media/";
+    this.fileNames = ["1.mp3", "2.mp3", "3.mp3", "4.mp3", "5.mp3", "6.mp3"];
+    this.songTitles = ["Hal 3eshtou kabla an", "Anta li man", "Fawka", "Askouno", "3anni kada", "2ila be2r samira"];
 
     this.audio = document.getElementById("audio");
     this.audio.addEventListener("ended", function () {
