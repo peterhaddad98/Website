@@ -165,7 +165,7 @@ var App = function () {
     this.currentSong = 1;
     this.volume = 1;
     this.baseURL = "https://media.fbcbaptistchurch.org/media/";
-    this.fileNames = ["1.aac", "2.mp3", "3.mp3", "4.mp3", "5.mp3", "6.mp3", "7.mp3", "8.mp3", "9.mp3", "10.mp3", "11.mp3", "12.mp3", "13.mp3", "14.mp3", "15.mp3", "16.mp3", "17.mp3", "18.mp3", "19.mp3", "20.mp3", "21.mp3", "22.mp3", "23.mp3", "24.mp3", "25.mp3", "26.mp3", "27.mp3", "28.mp3", "29.mp3", "30.mp3", "31.mp3", "32.mp3"];
+    this.fileNames = ["1.mp3", "2.mp3", "3.mp3", "4.mp3", "5.mp3", "6.mp3", "7.mp3", "8.mp3", "9.mp3", "10.mp3", "11.mp3", "12.mp3", "13.mp3", "14.mp3", "15.mp3", "16.mp3", "17.mp3", "18.mp3", "19.mp3", "20.mp3", "21.mp3", "22.mp3", "23.mp3", "24.mp3", "25.mp3", "26.mp3", "27.mp3", "28.mp3", "29.mp3", "30.mp3", "31.mp3", "32.mp3"];
     this.songTitles = ["01. Hal 3eshtou kabla an", "02. Anta li man", "03. Fawka", "04. Askouno", "05. 3anni kada", "06. 2ila be2r samira", "07. Sa2alouzou bi 7idnika", "08. Alki", "09. Rahmatan", "10. Lima a5af 7oznan", "11. Far7atou kalbi", "12. Min baha2", "13. Kamilou jamal", "14. Ila douja", "15. In zara3ti", "16. Askouno", "17. Inta moush li", "18. Yateebo li", "19. Ha innani", "20. Ou7ibouka iz", "21. Rabbi anta li ta3aba", "22. Comment", "23. Abana lathe", "24. 5alika l2akwani", "25. Araka Ilahi Arak", "26. Ayuha Lkudus", "27. Ha salatu Tawbati", "28. Ya Rabbu Ma A7la", "29. Rabi Sabayta", "30. Fi Sitrihi", "31. Ma7abatu Lahi", "32. Rabi J3alanni"];
 
     this.audio = document.getElementById("audio");
