@@ -125,13 +125,13 @@ var App = function () {
       if (_this2.playing && _this2.audioReady) {
         i.classList.remove("fa-pause");
         i.classList.add("fa-play");
-        _this2.playing = false;
         _this2.audio.pause();
+        _this2.playing = false;
       } else if (_this2.playing && _this2.audioReady) {
         i.classList.remove("fa-play");
         i.classList.add("fa-pause");
-        _this2.playing = true;
         _this2.audio.play();
+        _this2.playing = true;
       }
     };
     this.controls.volume.onclick = function () {
