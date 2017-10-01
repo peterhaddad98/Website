@@ -121,13 +121,13 @@ class App {
       if (this.playing &&  this.audioReady) {
         i.classList.remove("fa-pause");
         i.classList.add("fa-play");
-        this.audio.pause();
         this.playing = false;
-      } else if ( this.playing &&  this.audioReady) {
+        this.audio.pause();
+      } else if (this.playing &&  this.audioReady) {
         i.classList.remove("fa-play");
         i.classList.add("fa-pause");
-        this.audio.play();
         this.playing = true;
+        this.audio.play();
       }
     };
     this.controls.volume.onclick = () => {
